@@ -1,5 +1,5 @@
 <template>
-  <a :href="link" class="link">
+  <nuxt-link :to="link" class="link">
     <div class="descriptionWrapper">
       <div class="headline">
         <h3>{{ headline }}</h3>
@@ -13,7 +13,7 @@
         backgroundSize: 'cover',
       }"
     ></div>
-  </a>
+  </nuxt-link>
 </template>
 
 <script>

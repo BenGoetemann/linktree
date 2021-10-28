@@ -44,4 +44,15 @@ a {
   color: white
 }
 
+.container {
+  min-height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  width: 95vw;
+}
+
 </style>

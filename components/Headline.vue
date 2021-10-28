@@ -1,6 +1,7 @@
 <template>
      <div class="sectionWrapper">
       <div class="sectionHeadline">
+        <p v-if="date" class="date">{{ date }}</p>
         <h3> {{ headline }}</h3>
       </div>
       <div v-if="showLine" class="line"></div>
@@ -9,7 +10,7 @@
 
 <script>
 export default {
-  props: ["headline", "showLine"],
+  props: ["headline", "showLine", "date"],
 };
 </script>
 
@@ -19,6 +20,11 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.date {
+  font-weight: bold;
+  font-size: 0.6rem;
 }
 
 .sectionHeadline {
