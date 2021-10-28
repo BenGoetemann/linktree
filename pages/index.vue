@@ -8,13 +8,13 @@
       link="https://bit.ly/3bixMLQ"
       headline="Paul Gerlinger - Luft"
       description="Die erste Handmade Live Session mit Paul Gerlinger. Enjoy!"
-      image="https://i.postimg.cc/DZbbwVTH/Bildschirmfoto-2021-10-28-um-15-26-02.png"
+      image="https://i.postimg.cc/XvHGnjyn/Bildschirmfoto-2021-10-28-um-15-26-02.webp"
     />
     <Link
       link="https://bit.ly/2XTJMAt"
       headline="Seeder DJ Set"
       description="Private Minimal House Set der Jungs ausm Peer 23!"
-      image="https://i.postimg.cc/pr67Yn7p/Bildschirmfoto-2021-10-28-um-15-28-39.png"
+      image="https://i.postimg.cc/zfXHmbvd/Bildschirmfoto-2021-10-28-um-15-28-39.webp"
     />
      <Headline headline="Follow us" />
   <Footer />
