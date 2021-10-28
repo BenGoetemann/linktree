@@ -7,8 +7,8 @@
       <!-- <a href=""><fa :icon="['fab', 'soundcloud']" class="followIcon" /></a> -->
     </div>
     <div class="legal">
-      <a href="https://www.pingr.de/privacy">Datenschutz</a>
-      <a href="https://www.pingr.de/imprint">Impressum</a>
+      <a href="https://bit.ly/3pKd1RO">Datenschutz</a>
+      <a href="https://bit.ly/3vR6qpT">Impressum</a>
     </div>
   </div>
 </template>

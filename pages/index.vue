@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <a href="https://www.pingr.de"><img class="logo" src="../assets/Schriftlogo_weiß.webp" alt="Pingr Logo"></a>
+    <a href="https://bit.ly/2ZDawpN"><img class="logo" src="../assets/Schriftlogo_weiß.webp" alt="Pingr Logo"></a>
     <Headline headline="Download Pingr" showLine="true"/>
     <Platforms />
     <Headline headline="Latest News" showLine="true"/>
