@@ -67,7 +67,7 @@ export default {
 <style>
 iframe {
   width: 90vw;
-  max-width: 560px;
+  max-width: 800px;
 }
 
 .player {
@@ -78,11 +78,11 @@ iframe {
 .image {
   width: 90vw;
   margin: 30px 0;
-  max-width: 560px;
+  max-width: 800px;
 }
 
 .paragraph {
-  max-width: 560px;
+  max-width: 800px;
   text-align: justify;
 }
 </style>
