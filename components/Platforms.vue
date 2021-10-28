@@ -1,12 +1,12 @@
 <template>
   <div class="platforms">
-    <a href="https://www.google.de" class="platformWrapper">
+    <a href="https://apple.co/3jJ8I5o" class="platformWrapper">
       <div class="platformLogo">
         <fa :icon="['fab', 'apple']" class="icon" />
       </div>
       <h5>Download for iOS</h5>
     </a>
-    <a href="https://www.google.de" class="platformWrapper">
+    <a href="https://bit.ly/2ZHsgQK" class="platformWrapper">
       <div class="platformLogo">
         <fa :icon="['fab', 'android']" class="icon android" />
       </div>

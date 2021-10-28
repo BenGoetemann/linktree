@@ -1,10 +1,10 @@
 <template>
   <div class="footer">
     <div class="followUs">
-      <a href=""><fa :icon="['fab', 'youtube']" class="followIcon" /></a>
-      <a href=""><fa :icon="['fab', 'instagram']" class="followIcon" /></a>
-      <a href=""><fa :icon="['fab', 'facebook']" class="followIcon" /></a>
-      <a href=""><fa :icon="['fab', 'soundcloud']" class="followIcon" /></a>
+      <a href="https://bit.ly/3bmOoCp"><fa :icon="['fab', 'youtube']" class="followIcon" /></a>
+      <a href="https://bit.ly/30YXpzt"><fa :icon="['fab', 'instagram']" class="followIcon" /></a>
+      <a href="https://bit.ly/2Zw4tU7"><fa :icon="['fab', 'facebook']" class="followIcon" /></a>
+      <!-- <a href=""><fa :icon="['fab', 'soundcloud']" class="followIcon" /></a> -->
     </div>
     <div class="legal">
       <a href="https://www.pingr.de/privacy">Datenschutz</a>
