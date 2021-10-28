@@ -31,7 +31,7 @@ export default {};
   align-items: center;
   justify-content: space-between;
   width: 180px;
-  margin-bottom: 10px;
+  margin-bottom: 0 20px;
 }
 
 .legal {
