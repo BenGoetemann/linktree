@@ -49,11 +49,11 @@ export default {
   justify-content: space-between;
   height: 100%;
   text-align: left;
-  max-width: 28ch;
+  max-width: 23ch;
 }
 
 .description {
-    font-size: .86rem;
+    font-size: .80rem;
 }
 
 .previewImage {
