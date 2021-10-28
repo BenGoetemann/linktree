@@ -63,5 +63,6 @@ export default {
   width: 70px;
   height: 100%;
   border-radius: 6px;
+  margin-left: 5px
 }
 </style>
