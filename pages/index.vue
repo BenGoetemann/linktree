@@ -5,22 +5,16 @@
     <Platforms />
     <Headline headline="Latest News" showLine="true"/>
     <Link
-      link="https://www.google.de"
-      headline="Paul Gerlinger Live"
-      description="Die erste Gartensession! Genießt die Session von Paul Gerlinger."
-      image="https://upload.wikimedia.org/wikipedia/commons/a/aa/Bob_Dylan_and_The_Band_-_1974.jpg"
+      link="https://bit.ly/3bixMLQ"
+      headline="Paul Gerlinger - Luft"
+      description="Die erste Handmade Live Session mit Paul Gerlinger. Enjoy!"
+      image="https://i.postimg.cc/DZbbwVTH/Bildschirmfoto-2021-10-28-um-15-26-02.png"
     />
     <Link
-      link="https://www.google.de"
-      headline="Cinemagraph Live"
-      description="Richtig coole Session mit Cinemagraph. Anschauen lohnt sich!"
-      image="https://www.rogers.de/app/uploads/2020/06/RGRS-Promo-1-3-1024x683.jpg"
-    />
-    <Link
-      link="https://www.google.de"
-      headline="DJ BOBO Live"
-      description="Der Klassiker der letzten Dekade. Rumgröhlen garantiert."
-      image="https://www.delamar.de/wp-content/uploads/2019/11/band_recording_ratgeber.jpg"
+      link="https://bit.ly/2XTJMAt"
+      headline="Seeder DJ Set"
+      description="Private Minimal House Set der Jungs ausm Peer 23!"
+      image="https://i.postimg.cc/pr67Yn7p/Bildschirmfoto-2021-10-28-um-15-28-39.png"
     />
      <Headline headline="Follow us" />
   <Footer />
