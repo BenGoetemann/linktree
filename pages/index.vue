@@ -23,7 +23,6 @@
     />
     <Headline headline="Follow us" />
     <Footer />
-    <nuxt-link to="./blogposts/template">Nuxt View Menu</nuxt-link>
   </div>
 </template>
 
