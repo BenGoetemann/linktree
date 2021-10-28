@@ -3,55 +3,36 @@
       <div class="sectionHeadline">
         <h3> {{ headline }}</h3>
       </div>
+      <div v-if="showLine" class="line"></div>
     </div>
 </template>
 
 <script>
 export default {
-  props: ["headline"],
+  props: ["headline", "showLine"],
 };
 </script>
 
 <style>
-.link {
+.sectionWrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  margin-bottom: 10px;
-  border-radius: 6px;
-  height: 120px;
+  justify-content: center;
+}
+
+.sectionHeadline {
+  margin: 33px 0 5px 0;
+  width: 200px;
   width: 95vw;
   max-width: 800px;
-  background: #1a1a1a;
 }
 
-.link:hover {
-  background: #1d1d1d;
-  outline: 1px solid #faa900;
-}
-
-.descriptionWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  height: 100%;
-  text-align: left;
-  max-width: 28ch;
-}
-
-.description {
-    font-size: .86rem;
-}
-
-.previewImage {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  width: 70px;
-  height: 100%;
+.line {
+  height: 3px;
+  width: 30px;
+  background: #ffa900;
   border-radius: 6px;
+  margin-bottom: 10px;
 }
 </style>

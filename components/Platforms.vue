@@ -1,12 +1,16 @@
 <template>
   <div class="platforms">
     <a href="https://www.google.de" class="platformWrapper">
-      <div class="platformLogo"></div>
-      <h5>Download for Android</h5>
+      <div class="platformLogo">
+        <fa :icon="['fab', 'apple']" class="icon" />
+      </div>
+      <h5>Download for iOS</h5>
     </a>
     <a href="https://www.google.de" class="platformWrapper">
-      <div class="platformLogo"></div>
-      <h5>Download for iOS</h5>
+      <div class="platformLogo">
+        <fa :icon="['fab', 'android']" class="icon android" />
+      </div>
+      <h5>Download for Android</h5>
     </a>
   </div>
 </template>
@@ -16,6 +20,13 @@ export default {};
 </script>
 
 <style>
+.icon {
+  font-size: 30px;
+}
+
+.android {
+  padding-top: 5px;
+}
 
 .platforms {
   display: flex;
@@ -23,7 +34,7 @@ export default {};
   align-items: center;
   justify-content: space-between;
   border-radius: 6px;
-  width: 95vw;
+  width: 100%;
   max-width: 800px;
 }
 
@@ -45,9 +56,6 @@ export default {};
 }
 
 .platformLogo {
-  background: url("../assets/google-play-store-logo-black-and-white.png")
-    no-repeat center center;
-  background-size: contain;
   height: 30px;
   width: 30px;
   margin-bottom: 10px;
