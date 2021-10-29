@@ -8,7 +8,7 @@
           backgroundSize: 'cover',
         }"
       ></div>
-      <h3>More about {{ artistAlias }}</h3>
+      <h3 class="artistAlias">More about {{ artistAlias }}</h3>
       <Genres :genres="genres" />
     </div>
     <div class="linkList">
@@ -78,5 +78,9 @@ export default {
   width: 100px;
   border-radius: 50%;
   border: solid #ffa900 1px;
+}
+
+.artistAlias {
+  width: 100vw;
 }
 </style>
