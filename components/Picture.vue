@@ -1,7 +1,7 @@
 <template>
   <div class="imageWrapper">
     <img class="image" :src="src" :alt="alt" />
-    <p v-if="description" class="imageDescription">{{ description }}</p>
+    <p v-if="description" class="imageDescription">Credit: {{ description }}</p>
   </div>
 </template>
 

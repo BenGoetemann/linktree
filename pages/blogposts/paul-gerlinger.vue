@@ -25,6 +25,7 @@
     <Picture
       src="https://i.postimg.cc/bYCYkM7m/216641699-1772227339627666-7380797441628910716-n.jpg"
       alt="Ein Bild von Paul Gerlinger"
+      description="Lea Bräuer"
     />
     <Paragraph
       content='Und so widmet sich Paul erst mit 15 wieder der Musik: Er bringt sich das Gitarrenspielen selbst bei, seine ersten eigenen Songs entstehen erst gut fünf Jahre später. Er spielt in dieser Zeit gut 150 Konzerte, macht sich in der Region einen Namen. Beeindruckend wird das auch durch den Fakt, dass Paul Gerlinger "im echten Leben" Standortleiter eines Logistik-Unternehmens ist.'
@@ -35,6 +36,7 @@
     <Picture
       src="https://i.postimg.cc/XvHGnjyn/Bildschirmfoto-2021-10-28-um-15-26-02.webp"
       alt="Ein Bild von Paul Gerlinger"
+      description="Riccardo Prevete"
     />
     <Paragraph
       content="Doch keine Angst, bei der omnipräsenten Melancholie in seiner Musik blitzt immer ein trockener, beinahe zynischer, Humor durch, der die Schwere verträglich macht."
@@ -54,7 +56,7 @@
     />
     <Headline headline="Download Pingr" showLine="true" />
     <Platforms />
-      <Headline headline="Follow us" />
+    <Headline headline="Follow us" />
     <Footer />
     <nuxt-link to="../"><div>← BACK</div></nuxt-link>
   </div>
@@ -67,7 +69,7 @@ export default {
 };
 </script>
 <style>
-.backLink{
+.backLink {
   margin-top: 30px;
 }
 </style>
