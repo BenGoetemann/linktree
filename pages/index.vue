@@ -6,15 +6,15 @@
     <Headline headline="Download Pingr" showLine="true" />
     <Platforms />
     <Headline headline="Latest News" showLine="true" />
+
+    <!-- -----ENTER NEW POSTS HERE------ -->
+
     <Blogpost
-      link="./blogposts/template"
+      link="./blogposts/paul-gerlinger"
       headline="Paul Gerlinger - Luft"
       description="Die erste Handmade Live Session mit Paul Gerlinger. Enjoy!"
       image="https://i.postimg.cc/XvHGnjyn/Bildschirmfoto-2021-10-28-um-15-26-02.webp"
     />
-
-    <!-- link="https://bit.ly/3bixMLQ" -->
-
     <Link
       link="https://bit.ly/2XTJMAt"
       headline="Seeder DJ Set"
