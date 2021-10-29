@@ -24,8 +24,10 @@ props: {
 .genre-wrapper {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
-  max-width: 800px;
+  max-width: 600px;
 }
 
 .genre {
