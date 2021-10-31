@@ -15,8 +15,8 @@
       description="Die erste Handmade Live Session mit Paul Gerlinger. Enjoy!"
       image="https://i.postimg.cc/XvHGnjyn/Bildschirmfoto-2021-10-28-um-15-26-02.webp"
     />
-    <Link
-      link="https://bit.ly/2XTJMAt"
+    <Blogpost
+      link="./blogposts/seeder"
       headline="Seeder DJ Set"
       description="Private Minimal House Set der Jungs ausm Peer 23!"
       image="https://i.postimg.cc/zfXHmbvd/Bildschirmfoto-2021-10-28-um-15-28-39.webp"

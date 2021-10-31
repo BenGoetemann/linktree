@@ -12,20 +12,23 @@
       <Genres :genres="genres" />
     </div>
     <div class="linkList">
-      <div class="platformLogo">
+      <div v-if="spotify" class="platformLogo">
         <a :href="spotify"><fa :icon="['fab', 'spotify']" class="icon" /></a>
       </div>
-      <div class="platformLogo">
+      <div v-if="youtube" class="platformLogo">
         <a :href="youtube"><fa :icon="['fab', 'youtube']" class="icon" /></a>
       </div>
-      <div class="platformLogo">
+      <div v-if="facebook" class="platformLogo">
         <a :href="facebook"><fa :icon="['fab', 'facebook']" class="icon" /></a>
       </div>
-      <div class="platformLogo">
+      <div v-if="instagram" class="platformLogo">
         <a :href="instagram"><fa :icon="['fab', 'instagram']" class="icon" /></a>
       </div>
-      <div class="platformLogo">
+      <div v-if="website" class="platformLogo">
         <a :href="website"><fa :icon="['fas', 'globe']" class="icon" /></a>
+      </div>
+       <div v-if="soundcloud"  class="platformLogo">
+        <a :href="soundcloud"><fa :icon="['fab', 'soundcloud']" class="icon" /></a>
       </div>
     </div>
   </div>
@@ -41,7 +44,8 @@ export default {
       youtube: String,
       facebook: String,
       instagram: String,
-      website: String,      
+      website: String,   
+      soundcloud: String,   
   }
 };
 </script>

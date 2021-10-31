@@ -40,6 +40,7 @@ props: {
   -moz-user-select: none;     /* Firefox all */
   -ms-user-select: none;      /* IE 10+ */
   user-select: none;  
+  white-space: nowrap;
 }
 
 </style>

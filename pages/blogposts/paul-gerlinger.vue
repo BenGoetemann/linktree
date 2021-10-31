@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <nuxt-link class="backLink" to="../"><div>← BACK</div></nuxt-link>
+    <nuxt-link class="backLink" to="/"><div>← BACK</div></nuxt-link>
     <Headline
       headline="Paul Gerlinger Live"
       showLine="true"
@@ -58,7 +58,7 @@
     <Platforms />
     <Headline headline="Follow us" />
     <Footer />
-    <nuxt-link to="../"><div>← BACK</div></nuxt-link>
+    <nuxt-link to="/"><div>← BACK</div></nuxt-link>
   </div>
 </template>
 
