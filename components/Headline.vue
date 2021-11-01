@@ -25,7 +25,6 @@ export default {
   margin: 33px 0 5px 0;
   width: 200px;
   width: 95vw;
-  max-width: 800px;
 }
 
 .line {

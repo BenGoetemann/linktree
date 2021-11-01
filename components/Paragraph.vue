@@ -12,7 +12,6 @@ export default {
 
 <style>
 .paragraph {
-  max-width: 800px;
   text-align: justify;
   margin-bottom: 15px;
 }

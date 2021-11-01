@@ -6,7 +6,7 @@
     <Headline headline="Download Pingr" showLine="true" />
     <Platforms />
     <Headline headline="Latest News" showLine="true" />
-
+    
     <!-- -----ENTER NEW POSTS HERE------ -->
 
     <Blogpost

@@ -1,12 +1,12 @@
 <template>
   <div class="row platforms">
-    <a href="https://apple.co/3jJ8I5o" class="center platformWrapper">
+    <a href="https://apple.co/3jJ8I5o" class="center platformWrapper border">
       <div class="platformLogo">
         <fa :icon="['fab', 'apple']" class="icon" />
       </div>
       <h5>Download for iOS</h5>
     </a>
-    <a href="https://bit.ly/2ZHsgQK" class="center platformWrapper">
+    <a href="https://bit.ly/2ZHsgQK" class="center platformWrapper border">
       <div class="platformLogo">
         <fa :icon="['fab', 'android']" class="icon android" />
       </div>
@@ -30,7 +30,6 @@ export default {};
 
 .platforms {
   width: 100%;
-  max-width: 800px;
 }
 
 .platformWrapper {
@@ -38,7 +37,6 @@ export default {};
   height: 100px;
   margin-bottom: 10px;
   width: 49.3%;
-  border-radius: 6px;
 }
 
 .platformWrapper:hover {

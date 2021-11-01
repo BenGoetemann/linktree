@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link :to="link" class="row link">
+  <nuxt-link :to="link" class="row link border">
     <div class="descriptionWrapper">
       <div class="headline">
         <h3>{{ headline }}</h3>
@@ -7,7 +7,7 @@
       <div class="description">{{ description }}</div>
     </div>
     <div
-      class="previewImage"
+      class="previewImage border"
       :style="{
         background: 'url(\'' + image + '\') no-repeat center center',
         backgroundSize: 'cover',
@@ -30,10 +30,8 @@ export default {
 .link {
   padding: 20px;
   margin-bottom: 10px;
-  border-radius: 6px;
   height: 120px;
   width: 100%;
-  max-width: 800px;
   background: #1a1a1a;
 }
 
@@ -63,7 +61,6 @@ export default {
   align-items: flex-end;
   width: 70px;
   height: 100%;
-  border-radius: 6px;
   margin-left: 5px;
 }
 </style>

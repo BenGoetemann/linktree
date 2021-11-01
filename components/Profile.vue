@@ -53,7 +53,6 @@ export default {
 <style>
 .profile {
   width: 90vw;
-  max-width: 800px;
   padding: 20px;
 }
 

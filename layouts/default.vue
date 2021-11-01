@@ -54,6 +54,7 @@ a {
   padding: 10px;
   min-height: 100vh;
   width: 95vw;
+  max-width: 800px;
 }
 
 .row {
@@ -76,5 +77,12 @@ a {
   align-items: left;
 }
 
+.border {
+    border-radius: 6px;
+}
+
+.maxWidth {
+  max-width: 800px;
+}
 
 </style>

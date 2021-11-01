@@ -1,6 +1,6 @@
 <template>
   <div class="imageWrapper">
-    <img class="image" :src="src" :alt="alt" />
+    <img class="image maxWidth" :src="src" :alt="alt" />
     <p v-if="description" class="imageDescription">Credit: {{ description }}</p>
   </div>
 </template>
@@ -19,7 +19,7 @@ export default {
 
 .image {
   width: 90vw;
-  max-width: 800px;
+  /* max-width: 800px; */
 }
 
 .imageDescription {
