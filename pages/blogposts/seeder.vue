@@ -8,7 +8,7 @@
     />
     <br />
     <Paragraph
-      content="Frieder und Simon. Mannheims hottest DJ Duo, Mannheims cutest DJ Duo. Zwei der Persönlichkeiten hinter dem legänderen Peer23, den Kulturtragflächen und dem Bündnis Kulturschaffender Mannheim."
+      content="Frieder und Simon. Mannheims hottest DJ Duo, Mannheims cutest DJ Duo. Zwei der Persönlichkeiten hinter dem legendären Peer23, den Kulturtragflächen und dem Bündnis Kulturschaffender Mannheim."
     />
     <YouTubePlayer test="sPMrr-dznho" />
     <Paragraph
@@ -24,7 +24,7 @@
       description="Riccardo Prevete"
     />
       <Paragraph
-      content="Ihr Sound findet sich in szenischem Minimal House, der richtig viel Spaß macht. Einer der legändersten Sets der beiden Peer Boys gab es auf auf dem Nachtwandel an der Haltestelle Rheinstraße. Über 300 Leute außer Rand und Band und die Seeder Jungs, wie immer, am grinsen. Ein Moment den sie bewiesenermaßen mit Leichtigkeit reproduzieren können."
+      content="Ihr Sound findet sich in szenischem Minimal House, der richtig viel Spaß macht. Eines der legendärsten Sets der beiden Peer Boys gab es auf auf dem Nachtwandel an der Haltestelle Rheinstraße. Über 300 Leute außer Rand und Band und die Seeder Jungs, wie immer, am grinsen. Ein Moment den sie bewiesenermaßen mit Leichtigkeit reproduzieren können."
     />
     <Paragraph
       content='Am 31.07.2021 haben Seeder für uns auf der Pia23 im Peer23 x Pingr Release Party minimalistische House Grooves gespielt, die perfekt zur gechillten Atmosphäre gepasst haben. Schwer dabei die Füße stillzuhalten, wie man später im Video sieht!'
