@@ -1,5 +1,5 @@
 <template>
-     <div class="sectionWrapper">
+     <div class="center">
       <div class="sectionHeadline">
         <p v-if="date" class="date">{{ date }}</p>
         <h3> {{ headline }}</h3>
@@ -15,12 +15,6 @@ export default {
 </script>
 
 <style>
-.sectionWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 
 .date {
   font-weight: bold;

@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link :to="link" class="link">
+  <nuxt-link :to="link" class="row link">
     <div class="descriptionWrapper">
       <div class="headline">
         <h3>{{ headline }}</h3>
@@ -28,10 +28,6 @@ export default {
   padding: 0
 }
 .link {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
   padding: 20px;
   margin-bottom: 10px;
   border-radius: 6px;
@@ -48,11 +44,12 @@ export default {
 
 .descriptionWrapper {
   display: flex;
-  flex-direction: column;
+  text-align: left;
   align-items: flex-start;
+  flex-direction: column; 
   justify-content: space-between;
   height: 100%;
-  text-align: left;
+
   max-width: 23ch;
 }
 

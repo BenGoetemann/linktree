@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="center container">
     <a href="https://bit.ly/2ZDawpN"
       ><img class="logo" src="../assets/Schriftlogo_weiß.webp" alt="Pingr Logo"
     /></a>
@@ -34,8 +34,5 @@ export default {
 </script>
 
 <style>
-.logo {
-  margin-top: 30px;
-  width: 100px;
-}
+
 </style>

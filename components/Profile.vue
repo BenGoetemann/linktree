@@ -1,6 +1,6 @@
 <template>
-  <div class="profile">
-    <div class="profileSection">
+  <div class="center profile">
+    <div class="center profileSection">
       <div
         class="profilePicture"
         :style="{
@@ -11,7 +11,7 @@
       <h3 class="artistAlias">More about {{ artistAlias }}</h3>
       <Genres :genres="genres" />
     </div>
-    <div class="linkList">
+    <div class="row linkList">
       <div v-if="spotify" class="platformLogo">
         <a :href="spotify"><fa :icon="['fab', 'spotify']" class="icon" /></a>
       </div>
@@ -52,27 +52,16 @@ export default {
 
 <style>
 .profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 90vw;
   max-width: 800px;
   padding: 20px;
 }
 
 .profileSection {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   width: 50%;
 }
 
 .linkList {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: row;
   width: 250px;
   padding: 10px;
 }

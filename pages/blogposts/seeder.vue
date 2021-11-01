@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="center container">
    <nuxt-link class="backLink" to="/"><div>← BACK</div></nuxt-link>
     <Headline
       headline="Seeder DJ Set"

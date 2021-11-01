@@ -39,20 +39,42 @@ html {
   margin: 0;
 }
 
+.logo {
+  margin-top: 30px;
+  width: 100px;
+}
+
 a {
   text-decoration: none;
   color: white
 }
 
 .container {
-  min-height: 100vh;
-  display: flex;
   text-align: center;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   padding: 10px;
+  min-height: 100vh;
   width: 95vw;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+}
+
 
 </style>

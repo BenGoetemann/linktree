@@ -1,6 +1,6 @@
 <template>
-  <a :href="link" class="link">
-    <div class="descriptionWrapper">
+  <a :href="link" class="row link">
+    <div class="left descriptionWrapper">
       <div class="headline">
         <h3>{{ headline }}</h3>
       </div>
@@ -28,10 +28,10 @@ export default {
   padding: 0
 }
 .link {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; */
   padding: 20px;
   margin-bottom: 10px;
   border-radius: 6px;
@@ -48,11 +48,11 @@ export default {
 
 .descriptionWrapper {
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
+  text-align: left;
+  flex-direction: column; 
   justify-content: space-between;
   height: 100%;
-  text-align: left;
   max-width: 23ch;
 }
 

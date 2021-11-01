@@ -1,12 +1,12 @@
 <template>
-  <div class="platforms">
-    <a href="https://apple.co/3jJ8I5o" class="platformWrapper">
+  <div class="row platforms">
+    <a href="https://apple.co/3jJ8I5o" class="center platformWrapper">
       <div class="platformLogo">
         <fa :icon="['fab', 'apple']" class="icon" />
       </div>
       <h5>Download for iOS</h5>
     </a>
-    <a href="https://bit.ly/2ZHsgQK" class="platformWrapper">
+    <a href="https://bit.ly/2ZHsgQK" class="center platformWrapper">
       <div class="platformLogo">
         <fa :icon="['fab', 'android']" class="icon android" />
       </div>
@@ -29,20 +29,11 @@ export default {};
 }
 
 .platforms {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 6px;
   width: 100%;
   max-width: 800px;
 }
 
 .platformWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background: #1a1a1a;
   height: 100px;
   margin-bottom: 10px;
