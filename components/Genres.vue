@@ -9,11 +9,11 @@
 <script>
 export default {
 props: {
-    genres: Array
+    genresArray: Array
 },
   data() {
     return {
-      genres: this.genres,
+      genres: this.genresArray,
     };
   },
 }

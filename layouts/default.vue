@@ -51,9 +51,8 @@ a {
 
 .container {
   text-align: center;
-  padding: 10px;
   min-height: 100vh;
-  width: 95vw;
+  width: 90vw;
   max-width: 800px;
 }
 
